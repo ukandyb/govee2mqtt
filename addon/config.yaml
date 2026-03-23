@@ -1,4 +1,4 @@
-name: Govee to MQTT Bridge
+name: Govee to MQTT Bridge - ABPULL
 image: ghcr.io/wez/govee2mqtt-{arch}
 version: "2025.11.25-60a39bcc"
 slug: govee2mqtt
