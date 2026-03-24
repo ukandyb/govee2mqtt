@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM ghcr.io/ukandyb/govee2mqtt:latest AS govee2mqtt
+FROM abuk/govee2mqtt:2025.11.25-60a39bcc AS govee2mqtt
 FROM $BUILD_FROM
 COPY run.sh /run.sh
 COPY --from=govee2mqtt /app/govee /app/
